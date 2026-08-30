@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T11:05:48.296738+00:00",
+  "last_updated": "2026-08-30T20:39:59.299876+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-08-30",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/yemenlinux/rl/actions/runs/33307966526",
       "orchestrator_run_id": 33307966526,
       "workflows": {
