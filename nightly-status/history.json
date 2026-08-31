@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T20:39:59.299876+00:00",
+  "last_updated": "2026-08-31T12:28:57.810177+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -10,15 +10,128 @@
       "success_rate": 86.2
     },
     "last_30_days": {
-      "days": 28,
-      "runs_with_data": 21,
-      "total_workflow_runs": 196,
-      "total_success": 168,
-      "total_failure": 28,
-      "success_rate": 85.7
+      "days": 29,
+      "runs_with_data": 22,
+      "total_workflow_runs": 205,
+      "total_success": 176,
+      "total_failure": 29,
+      "success_rate": 85.9
     }
   },
   "history": [
+    {
+      "date": "2026-08-31",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/yemenlinux/rl/actions/runs/33391755124",
+      "orchestrator_run_id": 33391755124,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99486815658",
+          "display_name": "Linux Tests"
+        },
+        "test-linux-llm.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99486815064",
+          "display_name": "LLM Tests"
+        },
+        "test-linux-habitat.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99486815291",
+          "display_name": "Habitat Tests"
+        },
+        "test-linux-tutorials.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99486817814",
+          "display_name": "Tutorials Tests"
+        },
+        "test-linux-sota.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99486817746",
+          "display_name": "SOTA Tests"
+        },
+        "test-linux-libs.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99486815479",
+          "display_name": "Libs Tests"
+        },
+        "test-windows-optdepts.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99486818832",
+          "display_name": "Windows Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99486817206",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99486818869",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99486814478",
+          "display_name": "Benchmarks"
+        },
+        "validate-test-partitioning.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99486815432",
+          "display_name": "Test Partitioning"
+        },
+        "nightly_build.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99486816338",
+          "display_name": "Nightly Build"
+        },
+        "build-wheels-linux.yml": {
+          "status": "failure",
+          "conclusion": "failure",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99486817713",
+          "display_name": "Wheels (Linux)"
+        },
+        "build-wheels-m1.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/yemenlinux/rl/actions/runs/33391755124/job/99487210628",
+          "display_name": "Wheels (M1)"
+        },
+        "build-wheels-windows.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (Windows)"
+        },
+        "build-wheels-aarch64-linux.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (Aarch64)"
+        }
+      },
+      "summary": {
+        "total": 16,
+        "success": 8,
+        "failure": 1,
+        "skipped": 7,
+        "other": 0,
+        "success_rate": 88.9
+      }
+    },
     {
       "date": "2026-08-30",
       "orchestrator_ran": true,
